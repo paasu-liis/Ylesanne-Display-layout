@@ -1,0 +1,25 @@
+* {
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+#img .gallery-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+#article {
+    grid-template-columns: 3fr 1fr;
+}
+#aside {
+    grid-template-columns: 3fr 1fr
+}
+/* footer */
+footer {
+    display: flex
+}
