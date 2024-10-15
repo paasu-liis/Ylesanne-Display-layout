@@ -17,6 +17,7 @@ body {
 #aside {
   display: grid;
   grid-template-columns: 3fr 1fr;
+  background-color: red;
 }
 .info-img {
   display: grid;
@@ -43,7 +44,25 @@ body {
     display: flex;
     align-items: center;
 }
+.social {
+  display: flex;
+    justify-content: flex-end; /* Horisontaalne paigutus */
+    align-items: flex-end; /* Vertikaalne paigutus */
+}
+.päike {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: flex-end;
+
+  img {
+    position: fixed;
+    max-width: 100%; 
+    height: 200px;s
+    width: 200px;
+    object-fit: cover;
+  }
+}
 /* footer */
 footer {
-  display: flex;
+  display: grid;
 }
