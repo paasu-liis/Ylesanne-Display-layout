@@ -37,12 +37,11 @@ header {
 }
 
 .header-logo {
-  font-family: 'Pacifico', cursive; /* Lisame ägeda kirjastiili */
+  font-family: 'Pacifico', cursive;
   font-size: 1.8rem;
   color: lightcoral;
 }
 
-/* Google Fonts linki lisamine Pacifico jaoks */
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 body {
@@ -55,7 +54,7 @@ body {
 #aside {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  background-color: red;
+  background-color: palevioletred;
 }
 .info-img {
   display: grid;
@@ -84,10 +83,10 @@ body {
 }
 .social {
   display: flex;
-    justify-content: flex-end; /* Horisontaalne paigutus */
-    align-items: flex-end; /* Vertikaalne paigutus */
+    justify-content: flex-end; 
+    align-items: flex-end; 
 }
-/* 1. Positsioneerimise osa */
+/* Positsioneerimise osa */
 .fixed-box {
   position: fixed;
   bottom: 10px;
@@ -98,11 +97,11 @@ body {
   font-size: 1rem;
 }
 
-/* 2. Flexbox Layout */
+/* Flexbox Layout */
 .flex-container {
   display: flex;
-  justify-content: space-between; /* Paigutab elemendid horisontaalselt */
-  align-items: center; /* Paigutab elemendid vertikaalselt keskele */
+  justify-content: space-between; 
+  align-items: center; 
   background-color: lightblue;
   padding: 20px;
   height: 200px;
@@ -110,13 +109,13 @@ body {
 
 .flex-item {
   background-color: lightgreen;
-  flex-basis: 30%; /* Protsentuaalne suurus */
+  flex-basis: 30%; 
   text-align: center;
   padding: 20px;
   font-size: 1rem;
 }
 
-/* 3. Animatsioon ja Üleminek */
+/* Animatsioon ja Üleminek */
 .animation-box {
   background-color: lightpink;
   padding: 20px;
@@ -126,7 +125,7 @@ body {
 
 .animation-box:hover {
   background-color: lightcoral;
-  transform: scale(1.2) rotate(15deg); /* Suureneb ja pöörleb */
+  transform: scale(1.2) rotate(15deg); 
 }
 
 .transition-box {
@@ -138,13 +137,13 @@ body {
 
 .transition-box:hover {
   background-color: lightblue;
-  transform: scale(1.2); /* Suureneb */
+  transform: scale(1.2); 
 }
 /* Tuksuv süda */
 .heart {
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: pink;
   position: relative;
   margin: 100px auto;
   transform: rotate(-45deg);
@@ -157,7 +156,7 @@ body {
   position: absolute;
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: pink;
   border-radius: 50%;
 }
 
@@ -215,10 +214,4 @@ footer {
   color: white;
   font-size: 1.5rem;
   text-decoration: none;
-  transition: color 0.3s ease;
 }
-
-.social-icon:hover {
-  color: lightblue;
-}
-
