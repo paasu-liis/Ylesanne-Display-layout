@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Keerulisem Paigutus</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <h1>Ka<mark>ss</mark>ikesed</h1>
+   <!-- Päis -->
+   <header>
+    <div class="header-container">
+        <div class="header-links">
+            <a href="#flexbox">Flexbox Layout</a>
+            <a href="#animation">Animatsioon ja üleminek</a>
         </div>
-        <nav id="navbar">
-            <ul>
-                <li><a href="#">Kodu</a></li>
-                <li><a href="#">Teenused</a></li>
-                <li><a href="#">Blogi</a></li>
-                <li><a href="#">Kontakt</a></li>
-            </ul>
-        </nav>
-    </header>
+        <div class="header-logo">
+            Kassiksed
+        </div>
+    </div>
+</header>
 
     <main>
         <article id="article">
@@ -46,25 +46,39 @@
             <img src="./img/kass4.jpg" alt="kass4">
         </div>
         </section>
-
-    </section>
-    <section>
-    <div class="päike">
-    <img src="./img/päike.jpg" alt="kuju">
-    </div>
-    </section>
     </main>
 
-    <footer>
-            <p>Jälgi meid:</p>
-            <div class="social">
-             <img src="https://via.placeholder.com/30" alt="Facebook">
-             <img src="https://via.placeholder.com/30" alt="Twitter">
-             <img src="https://via.placeholder.com/30" alt="Instagram">
+    <div class="grid-container">
+        <!-- Positsioneerimise osa -->
+        <h1>1. Positsioneerimise osa</h1>
+        <div class="fixed-box">Fikseeritud kast</div>
+
+        <!-- Flexbox Layout -->
+        <h2>2. Flexbox Layout</h2>
+        <div class="flex-container">
+            <div class="flex-item">Flex 1</div>
+            <div class="flex-item">Flex 2</div>
+            <div class="flex-item">Flex 3</div>
         </div>
-        <div class="copy">
-            <p>&copy; 2024 Minu Bränd</p>
+
+        <!-- Animatsioon ja Üleminek -->
+        <h2>3. Animatsioon ja Üleminek</h2>
+        <div class="animation-box">Hover üle minu</div>
+        <div class="transition-box">Hover üleminek</div>
+    </div>
+
+    <div class="heart"></div>
+
+<!-- Jalus -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-left">
+            <a href="https://www.facebook.com" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            Jälgi meid sotsiaalmeedias!
         </div>
-    </footer>
+    </div>
+</footer>
+
 </body>
 </html>
